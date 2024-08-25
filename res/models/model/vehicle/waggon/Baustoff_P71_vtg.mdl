@@ -1,0 +1,291 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 9.99416, 1.55885, 3.95134, },
+		bbMin = { -9.99654, -1.55886, -0.04876, },
+	},
+	collider = {
+		params = { },
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "MESH",
+	},
+	lods = {
+		{
+            node = {
+			    children = {
+				    {
+					    materials = { "vehicle/waggon/vtg_kesselwagen/p71.mtl", },
+                        mesh = "vehicle/waggon/vtg_kesselwagen/Baustoff_P71_vtg/p71_lod0.msh",
+					    transf = {
+						    1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -0.0, 0.0, 0.0, 1.0,
+					    },
+				    },
+                    {
+					    children = {
+		                    {
+                                materials = { "vehicle/waggon/vtg_kesselwagen/bogie.mtl", },
+			                    mesh = "vehicle/waggon/vtg_kesselwagen/bogie_lod0.msh",
+			                    transf = {
+				                    1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.74885, 1.0,
+			                    },
+		                    }, {
+                                materials = { "vehicle/waggon/vtg_kesselwagen/bogie.mtl", },
+			                    mesh = "vehicle/waggon/vtg_kesselwagen/rad_lod0.msh",
+			                    transf = {
+				                    1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.81434, 0.0, 0.40161, 1.0,
+			                    },
+		                    }, {
+			                    materials = { "vehicle/waggon/vtg_kesselwagen/bogie.mtl", },
+			                    mesh = "vehicle/waggon/vtg_kesselwagen/rad_lod0.msh",
+			                    transf = {
+				                    1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -0.8063, -0.0, 0.40161, 1.0,
+			                    },
+		                    },
+	                    },
+                        transf = {
+						    1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -7.9, -0.0, 0.0, 1.0,
+					    },
+				    },
+				    {
+					    children = {
+		                    {
+                                materials = { "vehicle/waggon/vtg_kesselwagen/bogie.mtl", },
+			                    mesh = "vehicle/waggon/vtg_kesselwagen/bogie_lod0.msh",
+			                    transf = {
+				                    -1.0, 0.0, 0.0, 0.0, 0.0, -1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.74885, 1.0,
+			                    },
+		                    }, {
+                                materials = { "vehicle/waggon/vtg_kesselwagen/bogie.mtl", },
+			                    mesh = "vehicle/waggon/vtg_kesselwagen/rad_lod0.msh",
+			                    transf = {
+				                    1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.81434, 0.0, 0.40161, 1.0,
+			                    },
+		                    }, {
+			                    materials = { "vehicle/waggon/vtg_kesselwagen/bogie.mtl", },
+			                    mesh = "vehicle/waggon/vtg_kesselwagen/rad_lod0.msh",
+			                    transf = {
+				                    1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -0.8063, -0.0, 0.40161, 1.0,
+			                    },
+		                    },
+	                    },
+                        transf = {
+						    1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 7.9, -0.0, 0.0, 1.0,
+					    },
+				    },
+                    {
+					    materials = { "vehicle/waggon/zugschluss.mtl", },
+					    mesh = "vehicle/waggon/zugschluss/zugschluss2_de_front.msh",
+					    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -9.68, 0, 1.17, 1, },
+				    },
+			    },
+			    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		    },
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 250,
+		},
+        {
+            node = {
+			    children = {
+				    {
+					    materials = { "vehicle/waggon/vtg_kesselwagen/p71.mtl", },
+                        mesh = "vehicle/waggon/vtg_kesselwagen/Baustoff_P71_vtg/p71_lod1.msh",
+					    transf = {
+						    1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -0.0, 0.0, 0.0, 1.0,
+					    },
+				    },
+                    {
+					    children = {
+		                    {
+                                materials = { "vehicle/waggon/vtg_kesselwagen/bogie.mtl", },
+			                    mesh = "vehicle/waggon/vtg_kesselwagen/bogie_lod1.msh",
+			                    transf = {
+				                    1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.74885, 1.0,
+			                    },
+		                    }, {
+                                materials = { "vehicle/waggon/vtg_kesselwagen/bogie.mtl", },
+			                    mesh = "vehicle/waggon/vtg_kesselwagen/rad_lod1.msh",
+			                    transf = {
+				                    1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.81434, 0.0, 0.40161, 1.0,
+			                    },
+		                    }, {
+			                    materials = { "vehicle/waggon/vtg_kesselwagen/bogie.mtl", },
+			                    mesh = "vehicle/waggon/vtg_kesselwagen/rad_lod1.msh",
+			                    transf = {
+				                    1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -0.8063, -0.0, 0.40161, 1.0,
+			                    },
+		                    },
+	                    },
+                        transf = {
+						    1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -7.9, -0.0, 0.0, 1.0,
+					    },
+				    },
+				    {
+					    children = {
+		                    {
+                                materials = { "vehicle/waggon/vtg_kesselwagen/bogie.mtl", },
+			                    mesh = "vehicle/waggon/vtg_kesselwagen/bogie_lod1.msh",
+			                    transf = {
+				                    1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.74885, 1.0,
+			                    },
+		                    }, {
+                                materials = { "vehicle/waggon/vtg_kesselwagen/bogie.mtl", },
+			                    mesh = "vehicle/waggon/vtg_kesselwagen/rad_lod1.msh",
+			                    transf = {
+				                    1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.81434, 0.0, 0.40161, 1.0,
+			                    },
+		                    }, {
+			                    materials = { "vehicle/waggon/vtg_kesselwagen/bogie.mtl", },
+			                    mesh = "vehicle/waggon/vtg_kesselwagen/rad_lod1.msh",
+			                    transf = {
+				                    1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -0.8063, -0.0, 0.40161, 1.0,
+			                    },
+		                    },
+	                    },
+                        transf = {
+						    1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 7.9, -0.0, 0.0, 1.0,
+					    },
+				    },
+			    },
+			    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		    },
+			static = false,
+			visibleFrom = 250,
+			visibleTo = 500,
+		},
+        {
+            node = {
+			    children = {
+				    {
+					    materials = { "vehicle/waggon/vtg_kesselwagen/p71.mtl", },
+                        mesh = "vehicle/waggon/vtg_kesselwagen/Baustoff_P71_vtg/p71_lod2.msh",
+					    transf = {
+						    1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -0.0, 0.0, 0.0, 1.0,
+					    },
+				    },
+                    {
+					    children = {
+		                    {
+                                materials = { "vehicle/waggon/vtg_kesselwagen/bogie.mtl", },
+			                    mesh = "vehicle/waggon/vtg_kesselwagen/bogie_lod2.msh",
+			                    transf = {
+				                    1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.74885, 1.0,
+			                    },
+		                    }, {
+                                materials = { "vehicle/waggon/vtg_kesselwagen/bogie.mtl", },
+			                    mesh = "vehicle/waggon/vtg_kesselwagen/rad_lod2.msh",
+			                    transf = {
+				                    1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.81434, 0.0, 0.40161, 1.0,
+			                    },
+		                    }, {
+			                    materials = { "vehicle/waggon/vtg_kesselwagen/bogie.mtl", },
+			                    mesh = "vehicle/waggon/vtg_kesselwagen/rad_lod2.msh",
+			                    transf = {
+				                    1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -0.8063, -0.0, 0.40161, 1.0,
+			                    },
+		                    },
+	                    },
+                        transf = {
+						    1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -7.9, -0.0, 0.0, 1.0,
+					    },
+				    },
+				    {
+					    children = {
+		                    {
+                                materials = { "vehicle/waggon/vtg_kesselwagen/bogie.mtl", },
+			                    mesh = "vehicle/waggon/vtg_kesselwagen/bogie_lod2.msh",
+			                    transf = {
+				                    1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.74885, 1.0,
+			                    },
+		                    }, {
+                                materials = { "vehicle/waggon/vtg_kesselwagen/bogie.mtl", },
+			                    mesh = "vehicle/waggon/vtg_kesselwagen/rad_lod2.msh",
+			                    transf = {
+				                    1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.81434, 0.0, 0.40161, 1.0,
+			                    },
+		                    }, {
+			                    materials = { "vehicle/waggon/vtg_kesselwagen/bogie.mtl", },
+			                    mesh = "vehicle/waggon/vtg_kesselwagen/rad_lod2.msh",
+			                    transf = {
+				                    1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -0.8063, -0.0, 0.40161, 1.0,
+			                    },
+		                    },
+	                    },
+                        transf = {
+						    1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 7.9, -0.0, 0.0, 1.0,
+					    },
+				    },
+			    },
+			    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		    },
+		    static = false,
+		    visibleFrom = 500,
+		    visibleTo = 1500,
+	    },
+	},
+	metadata = {
+		emission = {
+			idleEmission = -1,
+			powerEmission = -1,
+			speedEmission = -1,
+		},
+        description = {
+			name = _("P71_vtg_name"),
+			description = _("P71_vtg_desc")
+		},
+		railVehicle = {
+			topSpeed = 27.7777778,
+			weight = 20.6,
+			configs = {
+				{
+					axles = { "vehicle/waggon/vtg_kesselwagen/rad_lod0.msh", },
+					backForwardParts = { 10 },
+				},
+                {
+					axles = { "vehicle/waggon/vtg_kesselwagen/rad_lod1.msh", }
+				},
+                {
+					axles = { "vehicle/waggon/vtg_kesselwagen/rad_lod1.msh", }
+				}
+			},
+            engines = { },
+			soundSet = { name = "gw_neu" },
+		},
+		transportVehicle = {
+			carrier = "RAIL",
+			compartments = {
+				{
+					{
+						{ capacity = 128, type = "COAL" },
+                    },
+    		        {
+                        { capacity = 128, type = "STONE" },
+                    },
+    		        {
+			            { capacity = 128, type = "GRAIN" },
+                    },
+    		        {
+			            { capacity = 128, type = "PLASTIC" },
+			        },
+				},
+			},
+			loadSpeed = 3,
+			multipleUnitOnly = false,
+			reversible = false,
+            groupFileName = "vehicle/waggon/menu_vtg_kesselwagen.mdl",
+		},
+		availability = {
+			yearFrom = 1995,
+			yearTo = 0
+		},
+		cost = {
+			price = -1
+		},
+		maintenance = {
+			runningCosts = -1,
+			lifespan = 29220
+		}
+	},
+    version = 1,
+}
+end

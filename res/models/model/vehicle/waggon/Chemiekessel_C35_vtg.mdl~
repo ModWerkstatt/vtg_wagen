@@ -1,0 +1,154 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 7.96661, 1.55885, 4.00634, },
+		bbMin = { -7.99533, -1.55886, -0.04876, },
+	},
+	collider = {
+		params = {
+			
+		},
+		type = "MESH",
+	},
+	lods = {
+		{
+			children = {
+				{
+					id = "vehicle/waggon/Chemiekessel_C35_vtg/drehgestell1.grp",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -5.92834, -0.0, 0.0, 1.0, 
+					},
+					type = "GROUP",
+				},
+				{
+					id = "vehicle/waggon/Chemiekessel_C35_vtg/drehgestell2.grp",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 5.92273, 0.0, 0.0, 1.0, 
+					},
+					type = "GROUP",
+				},
+				{
+					id = "vehicle/waggon/Chemiekessel_C35_vtg/wagen.msh",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -0.0, 0.0, 0.0, 1.0, 
+					},
+					type = "MESH",
+				},
+			},
+			matConfigs = {
+				{
+					0, 0, 0, 0, 0, 
+				}, 
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 250,
+		},
+		{
+			children = {
+				{
+					id = "vehicle/waggon/Chemiekessel_C35_vtg/drehgestell1.grp",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -5.92834, -0.0, 0.0, 1.0, 
+					},
+					type = "GROUP",
+				},
+				{
+					id = "vehicle/waggon/Chemiekessel_C35_vtg/drehgestell2.grp",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 5.92273, 0.0, 0.0, 1.0, 
+					},
+					type = "GROUP",
+				},
+				{
+					id = "vehicle/waggon/Chemiekessel_C35_vtg/wagen_lod1.msh",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -0.0, 0.0, 0.0, 1.0, 
+					},
+					type = "MESH",
+				},
+			},
+			matConfigs = {
+				{
+					0, 0, 0, 0, 0, 
+				}, 
+			},
+			static = false,
+			visibleFrom = 250,
+			visibleTo = 1000,
+		},
+		{
+			children = {
+				{
+					id = "vehicle/waggon/Chemiekessel_C35_vtg/drehgestell1.grp",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -5.92834, -0.0, 0.0, 1.0, 
+					},
+					type = "GROUP",
+				},
+				{
+					id = "vehicle/waggon/Chemiekessel_C35_vtg/drehgestell2.grp",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 5.92273, 0.0, 0.0, 1.0, 
+					},
+					type = "GROUP",
+				},
+				{
+					id = "vehicle/waggon/Chemiekessel_C35_vtg/wagen_lod2.msh",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -0.0, 0.0, 0.0, 1.0, 
+					},
+					type = "MESH",
+				}, 
+			},
+			matConfigs = {
+				{
+					0, 0, 0, 0, 0, 
+				}, 
+			},
+			static = false,
+			visibleFrom = 1000,
+			visibleTo = 2500,
+		}, 		
+	},
+	metadata = {
+		description = {
+			name = _("C35_VTG_name"),
+			description = _("C35_VTG_desc")
+		},
+		railVehicle = {
+			topSpeed = 120,
+			weight = 15,
+			configs = {
+				{
+					axles = { "vehicle/waggon/Chemiekessel_C35_vtg/rad1.msh" }
+				}
+			},
+			soundSet = "gw_neu"
+		},
+		transportVehicle = {
+			carrier = "RAIL",
+			capacities = {
+				{ type = "PLASTIC", capacity = 65 },
+				{ type = "CRUDE", capacity = 65 },
+				{ type = "OIL", capacity = 65 },
+				{ type = "FUEL", capacity = 65 },
+			},
+			loadSpeed = 3
+		},
+		availability = {
+			yearFrom = 1995,
+			yearTo = 0
+		},
+		cost = {
+			price = -1
+		},
+		maintenance = {
+			runningCosts = -1,
+			lifespan = 40
+		}
+		
+	},
+	
+}
+end

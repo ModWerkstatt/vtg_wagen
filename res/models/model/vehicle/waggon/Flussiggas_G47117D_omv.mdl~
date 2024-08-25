@@ -1,0 +1,141 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 9.00184, 1.55886, 3.89305, },
+		bbMin = { -9.00184, -1.55885, -0.04876, },
+	},
+	collider = {
+		params = {
+			
+		},
+		type = "MESH",
+	},
+	lods = {
+		{
+			children = {
+				{
+					id = "vehicle/waggon/Flussiggas_G47_v3/drehgestell1.grp",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 6.32954, 0.0, 0.0, 1.0, 
+					},
+					type = "GROUP",
+				}, {
+					id = "vehicle/waggon/Flussiggas_G47_v3/drehgestell2.grp",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -6.34942, 0.0, 0.0, 1.0, 
+					},
+					type = "GROUP",
+				}, {
+					id = "vehicle/waggon/Flussiggas_G47_v3/wagen.msh",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, -0.0, 0.0, 1.0, 
+					},
+					type = "MESH",
+				}, 
+			},
+			matConfigs = {
+				{ 0, 0, 0, }, 
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 200,
+		},
+{
+			children = {
+				{
+					id = "vehicle/waggon/Flussiggas_G47_v3/drehgestell1-lod1.grp",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 6.32954, 0.0, 0.0, 1.0, 
+					},
+					type = "GROUP",
+				}, {
+					id = "vehicle/waggon/Flussiggas_G47_v3/drehgestell2-lod1.grp",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -6.34942, 0.0, 0.0, 1.0, 
+					},
+					type = "GROUP",
+				}, {
+					id = "vehicle/waggon/Flussiggas_G47_v3/wagen-lod1.msh",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, -0.0, 0.0, 1.0, 
+					},
+					type = "MESH",
+				}, 
+			},
+			matConfigs = {
+				{ 0, 0, 0, }, 
+			},
+			static = false,
+			visibleFrom = 200,
+			visibleTo = 1000,
+		},{
+			children = {
+				{
+					id = "vehicle/waggon/Flussiggas_G47_v3/drehgestell1-lod2.grp",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 6.32954, 0.0, 0.0, 1.0, 
+					},
+					type = "GROUP",
+				}, {
+					id = "vehicle/waggon/Flussiggas_G47_v3/drehgestell2-lod2.grp",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -6.34942, 0.0, 0.0, 1.0, 
+					},
+					type = "GROUP",
+				}, {
+					id = "vehicle/waggon/Flussiggas_G47_v3/wagen-lod2.msh",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, -0.0, 0.0, 1.0, 
+					},
+					type = "MESH",
+				}, 
+			},
+			matConfigs = {
+				{ 0, 0, 0, }, 
+			},
+			static = false,
+			visibleFrom = 1000,
+			visibleTo = 2500,
+		},		
+	},
+	metadata = {
+		description = {
+			name = _("G47_OMV_name"),
+			description = _("G47_OMV_desc")
+		},
+		railVehicle = {
+			topSpeed = 120,
+			weight = 31,
+			configs = {
+				{
+					axles = { "vehicle/waggon/Flussiggas_G47_v3/rad1.msh" }
+				}
+			},
+			soundSet = "gw_neu"
+		},
+		transportVehicle = {
+			carrier = "RAIL",
+			capacities = {
+				{ type = "PLASTIC", capacity = 95 },				
+				{ type = "CRUDE", capacity = 95 },
+				{ type = "OIL", capacity = 95 },
+				{ type = "FUEL", capacity = 95 },
+			},
+			loadSpeed = 3
+		},
+		availability = {
+			yearFrom = 1976,
+			yearTo = 0
+		},
+		cost = {
+			price = -1
+		},
+		maintenance = {
+			runningCosts = -1,
+			lifespan = 40
+		}
+		
+	},
+	
+}
+end

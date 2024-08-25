@@ -1,0 +1,154 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 7.69224, 1.55886, 3.72132, },
+		bbMin = { -7.66493, -1.55885, -0.04876, },
+	},
+	collider = {
+		params = {
+			
+		},
+		type = "MESH",
+	},
+	lods = {
+		{
+			children = {
+				{
+					id = "vehicle/waggon/Flussiggas_G97-062D_vtg/drehgestell1.grp",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 5.6, 0.0, 0.0, 1.0, 
+					},
+					type = "GROUP",
+				},
+				{
+					id = "vehicle/waggon/Flussiggas_G97-062D_vtg/drehgestell2.grp",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -5.6, 0.0, 0.0, 1.0, 
+					},
+					type = "GROUP",
+				},
+				{
+					id = "vehicle/waggon/Flussiggas_G97-062D_vtg/wagen.msh",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, -0.0, 0.0, 1.0, 
+					},
+					type = "MESH",
+				},
+			},
+			matConfigs = {
+				{
+					0, 0, 0,
+				}, 
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 250,
+		},
+		{
+			children = {
+				{
+					id = "vehicle/waggon/Flussiggas_G97-062D_vtg/drehgestell1.grp",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 5.6, 0.0, 0.0, 1.0, 
+					},
+					type = "GROUP",
+				},
+				{
+					id = "vehicle/waggon/Flussiggas_G97-062D_vtg/drehgestell2.grp",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -5.6, 0.0, 0.0, 1.0, 
+					},
+					type = "GROUP",
+				},
+				{
+					id = "vehicle/waggon/Flussiggas_G97-062D_vtg/wagen_lod1.msh",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, -0.0, 0.0, 1.0, 
+					},
+					type = "MESH",
+				},
+			},
+			matConfigs = {
+				{
+					0, 0, 0,
+				}, 
+			},
+			static = false,
+			visibleFrom = 250,
+			visibleTo = 1000,
+		},
+		{
+			children = {
+				{
+					id = "vehicle/waggon/Flussiggas_G97-062D_vtg/drehgestell1.grp",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 5.6, 0.0, 0.0, 1.0, 
+					},
+					type = "GROUP",
+				},
+				{
+					id = "vehicle/waggon/Flussiggas_G97-062D_vtg/drehgestell2.grp",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -5.6, 0.0, 0.0, 1.0, 
+					},
+					type = "GROUP",
+				},
+				{
+					id = "vehicle/waggon/Flussiggas_G97-062D_vtg/wagen_lod2.msh",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, -0.0, 0.0, 1.0, 
+					},
+					type = "MESH",
+				}, 
+			},
+			matConfigs = {
+				{
+					0, 0, 0,
+				}, 
+			},
+			static = false,
+			visibleFrom = 1000,
+			visibleTo = 2500,
+		},		
+	},
+	metadata = {
+		description = {
+			name = _("G97_VTG_name"),
+			description = _("G97_VTG_desc")
+		},
+		railVehicle = {
+			topSpeed = 100,
+			weight = 28.3,
+			configs = {
+				{
+					axles = { "vehicle/waggon/Flussiggas_G97-062D_vtg/rad1.msh" }
+				}
+			},
+			soundSet = "gw_neu"
+		},
+		transportVehicle = {
+			carrier = "RAIL",
+			capacities = {
+				{ type = "PLASTIC", capacity = 62 },				
+				{ type = "CRUDE", capacity = 62 },
+				{ type = "OIL", capacity = 62 },
+				{ type = "FUEL", capacity = 62 },
+			},
+			loadSpeed = 3
+		},
+		availability = {
+			yearFrom = 2000,
+			yearTo = 0
+		},
+		cost = {
+			price = -1
+		},
+		maintenance = {
+			runningCosts = -1,
+			lifespan = 40
+		}
+		
+	},
+	
+}
+end

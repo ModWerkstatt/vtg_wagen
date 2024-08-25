@@ -1,0 +1,154 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 8.14754, 1.55885, 4.34502, },
+		bbMin = { -8.1523, -1.55886, -0.04876, },
+	},
+	collider = {
+		params = {
+			
+		},
+		type = "MESH",
+	},
+	lods = {
+		{
+			children = {
+				{
+					id = "vehicle/waggon/Chemiekessel_C64_vtg/drehgestell1.grp",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -6.1, -0.0, 0.0, 1.0, 
+					},
+					type = "GROUP",
+				},
+				{
+					id = "vehicle/waggon/Chemiekessel_C64_vtg/drehgestell2.grp",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 6.1, 0.0, 0.0, 1.0, 
+					},
+					type = "GROUP",
+				},
+				{
+					id = "vehicle/waggon/Chemiekessel_C64_vtg/wagen.msh",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -0.0, 0.0, 0.0, 1.0, 
+					},
+					type = "MESH",
+				},
+			},
+			matConfigs = {
+				{
+					0, 0, 0, 0, 0, 
+				}, 
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 250,
+		},
+		{
+			children = {
+				{
+					id = "vehicle/waggon/Chemiekessel_C64_vtg/drehgestell1.grp",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -6.1, -0.0, 0.0, 1.0, 
+					},
+					type = "GROUP",
+				},
+				{
+					id = "vehicle/waggon/Chemiekessel_C64_vtg/drehgestell2.grp",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 6.1, 0.0, 0.0, 1.0, 
+					},
+					type = "GROUP",
+				},
+				{
+					id = "vehicle/waggon/Chemiekessel_C64_vtg/wagen_lod1.msh",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -0.0, 0.0, 0.0, 1.0, 
+					},
+					type = "MESH",
+				},
+			},
+			matConfigs = {
+				{
+					0, 0, 0, 0, 0, 
+				}, 
+			},
+			static = false,
+			visibleFrom = 250,
+			visibleTo = 500,
+		},
+		{
+			children = {
+				{
+					id = "vehicle/waggon/Chemiekessel_C64_vtg/drehgestell1.grp",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -6.1, -0.0, 0.0, 1.0, 
+					},
+					type = "GROUP",
+				},
+				{
+					id = "vehicle/waggon/Chemiekessel_C64_vtg/drehgestell2.grp",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 6.1, 0.0, 0.0, 1.0, 
+					},
+					type = "GROUP",
+				},
+				{
+					id = "vehicle/waggon/Chemiekessel_C64_vtg/wagen_lod2.msh",
+					transf = {
+						1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -0.0, 0.0, 0.0, 1.0, 
+					},
+					type = "MESH",
+				}, 
+			},
+			matConfigs = {
+				{
+					0, 0, 0, 0, 0, 
+				}, 
+			},
+			static = false,
+			visibleFrom = 500,
+			visibleTo = 2500,
+		},		
+	},
+	metadata = {
+		description = {
+			name = _("C64_VTG_name"),
+			description = _("C64_VTG_desc")
+		},
+		railVehicle = {
+			topSpeed = 100,
+			weight = 22,
+			configs = {
+				{
+					axles = { "vehicle/waggon/Chemiekessel_C64_vtg/rad1.msh" }
+				}
+			},
+			soundSet = "gw_neu"
+		},
+		transportVehicle = {
+			carrier = "RAIL",
+			capacities = {
+				{ type = "PLASTIC", capacity = 88 },
+				{ type = "CRUDE", capacity = 88 },
+				{ type = "OIL", capacity = 88 },
+				{ type = "FUEL", capacity = 88 },
+			},
+			loadSpeed = 3
+		},
+		availability = {
+			yearFrom = 2000,
+			yearTo = 0
+		},
+		cost = {
+			price = -1
+		},
+		maintenance = {
+			runningCosts = -1,
+			lifespan = 40
+		}
+		
+	},
+	
+}
+end
